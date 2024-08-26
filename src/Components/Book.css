@@ -1,27 +1,40 @@
 .book-container {
-    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.246);
-    padding: 1rem;
-    background-color: white;
-    color: black;
-    margin: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+	box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.246);
+	padding: 1rem;
+	background-color: white;
+	color: black;
+	margin: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 
-    .book-info {
-        width: 20rem;
-    }
-    figure {
-        margin: 0;
-        height: 12rem;
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-    button {
-        margin-top: 1rem;
-        padding: 0.5rem;
-        background-color: #5A5353;
-        color: white;
-    }
+	.book-info {
+		width: 20rem;
+	}
+	figure {
+		margin: 0;
+		height: 12rem;
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	.button-grey {
+		margin-top: 1rem;
+		padding: 0.5rem;
+		background-color: #5a5353;
+		color: white;
+	}
+
+	.round-add-btn {
+		width: 3rem;
+		height: 3rem;
+		border-radius: 100%;
+		font-size: 2rem;
+		align-self: center;
+		justify-self: end;
+		grid-area: btn;
+		background-color: #237d57;
+		color: white;
+	}
 }
